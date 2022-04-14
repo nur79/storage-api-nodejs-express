@@ -1,5 +1,4 @@
-// The existing tests in this file should not be modified,
-// but you can add more tests if needed.
+// you can add more tests if needed.
 
 const supertest = require('supertest')
 const server = require('./server.js')
