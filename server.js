@@ -1,4 +1,3 @@
-// You are welcome to drop express for any other server implementation
 const express = require('express')
 const server = express()
 
