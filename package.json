@@ -1,0 +1,21 @@
+{
+  "name": "data-storage-api-node-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A basic and quick-start on data storage API on Node.js/Express.js with Unit testing",
+  "repository": " https://github.com/nur79/storage-api-nodejs-express",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest test.js",
+    "test-watch": "jest --watch --notify --notifyMode=change test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "parse-error": "^0.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^4.0.2"
+  }
+}
